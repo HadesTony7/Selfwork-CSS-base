@@ -1,0 +1,51 @@
+body{ 
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+h1{ 
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+color: red;
+text-align: center
+}
+h2, h3 {color: blue;text-align: center;}
+
+.black {color: black;}
+
+.background{
+    min-height: 5vh;
+    background-color: aquamarine;
+}
+
+.background-image{
+    min-height: 5vh;
+    background-image: linear-gradient(rgba(233, 133, 11, 0.5), rgba(255,255,255,0.5)), url(./media/151432367-old-paper-texture-background-vintage-retro-newspaper-empty-blank-space-page-with-grunge-stain-line.jpg);
+}
+
+
+.modifica{
+    border: 3px solid black;
+    display: block;
+    margin: auto;
+}
+
+button{ 
+border: 2px dashed black;
+margin-bottom: 5px;
+}
+
+.logo{
+    height: 100px;
+    width: auto;
+}
+
+article{
+    width: auto;
+    border: 1px solid;
+    transform: translateY(10px);
+}
+
+.hover:hover{
+background-color: yellow;
+}
+
+
